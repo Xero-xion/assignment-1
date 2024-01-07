@@ -217,8 +217,6 @@
     justify-content: center;
     align-items: center;
     padding: 0 140px;
-
-
 }
 
 .five-image img {
@@ -274,9 +272,10 @@
     width: 393px;
 }
 
-.right-text{
+.right-text {
     padding-left: 118px;
 }
+
 .right-text h1 {
     color: #F00;
     font-family: Inter;
@@ -297,6 +296,69 @@
     /* 160% */
     width: 276px;
 }
-.right-text img{
+
+.right-text img {
     padding-top: 43px;
+}
+
+/* section six styles */
+.six-text h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.six-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.six-text h1 span {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.six-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    padding: 0 auto;
+}
+
+.img-up {
+    border-radius: 16px 16px 0px 0px;
+    background: url(./resources/Rectangle\ 1.png), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+}
+
+.img-down {
+    border-radius: 16px 16px 0px 0px;
+    background: url(./resources/Rectangle2.png), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
 }
