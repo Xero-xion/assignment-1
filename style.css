@@ -1,37 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
+header {
+
+    justify-content: center;
+    text-align: center;
+    color: white;
+    /* Set text color */
+    background-image: url('./resources/Banner Image.png');
+    background-size: cover;
+    /* Adjust as needed */
+    height: 300px;
+    /* Set the height of the header */
+    margin-top: 50px;
+    margin-left: 144px;
+    margin-right: 144px;
+
+    background-repeat: no-repeat;
+
 }
 
 .banner-title {
-    color: #FFF;
+    padding-top: 177px;
+    color: #00ff95;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 227px 670px;
 }
 
 .banner-heading {
-    color: #FFF;
+    gap: 16px;
+
+
+
+    color: #00ff95;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-}
-
-.banner-image {
-    padding: 50px 140px;
-}
-
-.banner {
-    background-image: url(./resources/Banner\ Image.png);
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    background-position: center;
-    bp
+    /* 131.944% */
 }
