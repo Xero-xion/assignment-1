@@ -1,44 +1,22 @@
-header {
-
-    justify-content: center;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
     color: white;
-    /* Set text color */
-    background-image: url('./resources/Banner Image.png');
-    background-size: cover;
-    /* Adjust as needed */
-    height: 300px;
-    /* Set the height of the header */
-    margin-top: 50px;
-    margin-left: 144px;
-    margin-right: 144px;
+}
 
+.background-image {
+    background-image: url(./resources/Banner.png);
+    margin: 50px auto;
     background-repeat: no-repeat;
-
+    width: 1320px;
+    height: 600px;
+    background-size: 100% 100%;
 }
 
-.banner-title {
-    padding-top: 177px;
-    color: #00ff95;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.banner-heading {
-    gap: 16px;
-
-
-
-    color: #00ff95;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px;
-    /* 131.944% */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 0px auto;
 }
